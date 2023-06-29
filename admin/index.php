@@ -9,6 +9,7 @@ if (!$_SESSION['user']) {
         header("location: ../index.php");
     }
     //truong dep trai
+    
 }
 include "header.php";
 require "../dao/loai.php";
