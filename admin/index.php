@@ -8,6 +8,7 @@ if (!$_SESSION['user']) {
     if ($vai_tro == 0) {
         header("location: ../index.php");
     }
+    //truong dep trai
 }
 include "header.php";
 require "../dao/loai.php";
